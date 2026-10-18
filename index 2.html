@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102b25">
+<title>SAM TEXTILES | Luxury • Quality • Style</title>
+<meta name="description" content="Discover beautiful fabrics at SAM TEXTILES. Ask about fabrics and place your order directly on WhatsApp.">
+<style>
+:root{--green:#102b25;--green2:#17463b;--gold:#d9b66f;--cream:#faf7f0;--ink:#1c2723;--muted:#68736d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink)}
+a{color:inherit;text-decoration:none}.topbar{background:var(--green);color:#fff;text-align:center;padding:9px 12px;font-size:12px;letter-spacing:1.2px}
+header{background:var(--green);color:#fff;padding:18px 5%;display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;border-bottom:1px solid #ffffff22}
+.brand{font-size:22px;font-weight:800;letter-spacing:2px}.brand span{display:block;color:var(--gold);font-size:10px;letter-spacing:3px;margin-top:5px}
+nav{display:flex;gap:20px;font-size:13px}nav a:hover{color:var(--gold)}
+.hero{background:radial-gradient(ellipse at 75% 35%,#2e6555 0,#173f34 40%,#102b25 75%);color:#fff;padding:65px 7% 72px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:360px;height:360px;border:1px solid #d9b66f55;border-radius:50%;right:-100px;top:-70px;box-shadow:0 0 0 28px #d9b66f0c,0 0 0 58px #d9b66f0a}
+.eyebrow{color:var(--gold);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:bold}
+h1{font-family:Georgia,serif;font-size:clamp(40px,7vw,76px);line-height:1.02;max-width:720px;margin:18px 0}
+.hero p{color:#d9e2dc;max-width:520px;line-height:1.8;font-size:16px}.btn{display:inline-block;background:var(--gold);color:#17251f;padding:14px 20px;border-radius:3px;font-weight:bold;font-size:13px;letter-spacing:.3px;margin-top:16px}.btn:hover{filter:brightness(1.06)}.btn-outline{border:1px solid #ffffff66;color:#fff;background:transparent;margin-left:8px}
+.section{padding:58px 6%}.section-head{text-align:center;margin-bottom:32px}.section-head h2{font: bold clamp(28px,4vw,42px) Georgia,serif;margin:10px 0}.section-head p{color:var(--muted);line-height:1.7;margin:0 auto;max-width:550px}
+.products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;max-width:1100px;margin:auto}
+.product{background:#fff;border:1px solid #e9e4d8;box-shadow:0 8px 24px #13291d08;overflow:hidden}
+.fabric{height:210px;position:relative;overflow:hidden;background-color:#154638}
+.fabric:before{content:"";position:absolute;inset:-20px;background-image:repeating-linear-gradient(45deg,transparent 0 12px,#f5d98966 12px 16px,transparent 16px 28px),repeating-linear-gradient(-45deg,transparent 0 16px,#e85d4a66 16px 20px,transparent 20px 32px);opacity:.9}
+.fabric.lace{background:#e7d8c2}.fabric.lace:before{background-image:radial-gradient(circle,#9e6e50 1.5px,transparent 2px),radial-gradient(circle,#fff9e9 3px,transparent 4px);background-size:14px 14px,28px 28px;opacity:.85}
+.fabric.kaftan{background:#243b62}.fabric.kaftan:before{background-image:repeating-linear-gradient(90deg,transparent 0 17px,#d9b66f99 17px 20px,transparent 20px 35px),repeating-linear-gradient(0deg,transparent 0 24px,#ffffff28 24px 26px);opacity:1}
+.fabric.print{background:#a83238}.fabric.print:before{background-image:radial-gradient(ellipse at center,#f4d78b 0 5px,transparent 6px),radial-gradient(ellipse at center,#163d31 0 3px,transparent 4px);background-size:32px 28px,16px 16px;background-position:0 0,8px 7px}
+.product-info{padding:18px}.product-info h3{font: bold 21px Georgia,serif;margin:0 0 8px}.product-info p{font-size:13px;line-height:1.6;color:var(--muted);min-height:40px;margin:0}.price{color:var(--green2);font-weight:bold;font-size:13px;margin-top:12px}.order{display:block;text-align:center;background:var(--green);color:white;padding:12px;margin-top:14px;font-size:13px;font-weight:bold}.order:hover{background:var(--green2)}
+.about{background:#efe9dc;display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:center}.about-art{min-height:290px;background:linear-gradient(135deg,#143e32,#1d5948);position:relative;display:flex;align-items:center;justify-content:center;color:var(--gold);font:italic 36px Georgia,serif;text-align:center;padding:25px}.about-art:before{content:"";position:absolute;inset:18px;border:1px solid #d9b66f99}.about h2{font: bold 36px Georgia,serif;margin:10px 0}.about p{color:#5d6962;line-height:1.8}
+.contact{background:var(--green);color:white;text-align:center}.contact .section-head p{color:#d0ddd5}.contact h2{color:white}.contact .btn{margin-top:22px}
+footer{background:#0b201b;color:#b7c5bd;padding:22px 6%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px}
+.wa-float{position:fixed;right:16px;bottom:18px;background:#20b85a;color:white;border-radius:30px;padding:13px 17px;font-weight:bold;font-size:13px;box-shadow:0 5px 20px #0003;z-index:4}
+@media(max-width:720px){header{padding:16px 5%}nav{width:100%;justify-content:space-between;gap:10px;font-size:12px}.hero{padding:52px 6% 60px}.hero p{font-size:14px}.btn-outline{margin-left:0}.products{grid-template-columns:1fr;max-width:420px}.fabric{height:220px}.section{padding:46px 5%}.about{grid-template-columns:1fr}.about-art{min-height:220px}.about h2{font-size:30px}footer{display:block;line-height:2.1}}
+</style>
+</head>
+<body>
+<div class="topbar">LUXURY FABRICS • QUALITY YOU CAN TRUST</div>
+<header>
+  <a class="brand" href="#">SAM TEXTILES<span>LUXURY • QUALITY • STYLE</span></a>
+  <nav><a href="#home">Home</a><a href="#collection">Collection</a><a href="#about">About Us</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="eyebrow">Elegance in every thread</div>
+  <h1>Find the fabric<br>for your next look.</h1>
+  <p>Discover beautiful fabrics for your style and special occasions. Browse our collection and message SAM TEXTILES on WhatsApp to ask about availability, prices, and orders.</p>
+  <a class="btn" href="#collection">EXPLORE OUR COLLECTION</a>
+  <a class="btn btn-outline" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">CHAT ON WHATSAPP</a>
+</section>
+<section class="section" id="collection">
+  <div class="section-head"><div class="eyebrow">Our collection</div><h2>Choose Your Style</h2><p>These are sample categories. Contact us on WhatsApp to confirm available designs, fabric lengths, and current prices.</p></div>
+  <div class="products">
+    <article class="product"><div class="fabric"></div><div class="product-info"><h3>Ankara Fabrics</h3><p>Colourful prints for standout outfits and creative styles.</p><div class="price">Price: Ask us on WhatsApp</div><a class="order" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20I%20am%20interested%20in%20Ankara%20fabrics.%20Please%20send%20available%20designs%20and%20prices." target="_blank" rel="noopener">ORDER / ENQUIRE ON WHATSAPP</a></div></article>
+    <article class="product"><div class="fabric lace"></div><div class="product-info"><h3>Lace Fabrics</h3><p>Elegant fabric options for celebrations and special occasions.</p><div class="price">Price: Ask us on WhatsApp</div><a class="order" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20I%20am%20interested%20in%20lace%20fabrics.%20Please%20send%20available%20designs%20and%20prices." target="_blank" rel="noopener">ORDER / ENQUIRE ON WHATSAPP</a></div></article>
+    <article class="product"><div class="fabric kaftan"></div><div class="product-info"><h3>Kaftan Materials</h3><p>Smart, timeless materials for traditional and modern looks.</p><div class="price">Price: Ask us on WhatsApp</div><a class="order" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20I%20am%20interested%20in%20kaftan%20materials.%20Please%20send%20available%20designs%20and%20prices." target="_blank" rel="noopener">ORDER / ENQUIRE ON WHATSAPP</a></div></article>
+    <article class="product"><div class="fabric print"></div><div class="product-info"><h3>Printed Materials</h3><p>Distinctive patterns to help bring your fashion ideas to life.</p><div class="price">Price: Ask us on WhatsApp</div><a class="order" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20I%20am%20interested%20in%20printed%20materials.%20Please%20send%20available%20designs%20and%20prices." target="_blank" rel="noopener">ORDER / ENQUIRE ON WHATSAPP</a></div></article>
+    <article class="product"><div class="fabric lace" style="filter:hue-rotate(45deg)"></div><div class="product-info"><h3>Premium Fabrics</h3><p>Ask us about premium options for your next outfit or event.</p><div class="price">Price: Ask us on WhatsApp</div><a class="order" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20please%20show%20me%20your%20premium%20fabric%20options%20and%20prices." target="_blank" rel="noopener">ORDER / ENQUIRE ON WHATSAPP</a></div></article>
+    <article class="product"><div class="fabric" style="filter:hue-rotate(80deg)"></div><div class="product-info"><h3>New Arrivals</h3><p>Looking for something specific? Ask us about the latest stock.</p><div class="price">Availability: Ask us on WhatsApp</div><a class="order" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20what%20new%20fabrics%20have%20arrived%3F" target="_blank" rel="noopener">ASK ABOUT NEW ARRIVALS</a></div></article>
+  </div>
+</section>
+<section class="section about" id="about">
+  <div class="about-art">SAM TEXTILES<br><small style="font:12px Arial;letter-spacing:3px">LUXURY • QUALITY • STYLE</small></div>
+  <div><div class="eyebrow">Welcome to our store</div><h2>Quality that speaks for itself.</h2><p>At SAM TEXTILES, we want it to be easy for you to find fabrics for your taste and occasion. Browse the sample collection, then contact us directly to ask about real stock, prices, and how to place your order.</p><a class="btn" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20I%20would%20like%20to%20know%20more%20about%20your%20fabrics." target="_blank" rel="noopener">CONTACT OUR STORE</a></div>
+</section>
+<section class="section contact" id="contact">
+  <div class="section-head"><div class="eyebrow">Let's talk</div><h2>Ready to place an order?</h2><p>Send us a WhatsApp message with the fabric you want. We’ll discuss designs, availability, pricing, and order details with you.</p><a class="btn" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">ORDER ON WHATSAPP</a></div>
+</section>
+</main>
+<footer><div><strong>SAM TEXTILES</strong> — Luxury • Quality • Style</div><div>WhatsApp: +234 909 468 3028</div><div>© <span id="year"></span> SAM TEXTILES</div></footer>
+<a class="wa-float" href="https://wa.me/2349094683028?text=Hello%20SAM%20TEXTILES%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">WhatsApp Us</a>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
